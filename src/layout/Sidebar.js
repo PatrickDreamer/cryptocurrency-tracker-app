@@ -14,9 +14,9 @@ import { deepPurple } from '@mui/material/colors';
 
 // Font Awesome Icon
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCoins } from '@fortawesome/free-solid-svg-icons';
+/* import { faCoins } from '@fortawesome/free-solid-svg-icons'; */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-library.add(faCoins)
+/* library.add(faCoins) */
 
 import CustomButton from '../components/CustomButton';
 
@@ -51,7 +51,7 @@ const Sidebar = ({ open, onClose }) => {
                                     }}
                                 >
                                     <FontAwesomeIcon 
-                                        icon={faCoins} 
+                                     /*    icon={faCoins}  */
                                         style={{ 
                                             color: theme.palette.common.white, 
                                             height: 30, 
